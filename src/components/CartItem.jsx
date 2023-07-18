@@ -16,6 +16,12 @@ const CartItem = () => {
     dispatch(removeItem(id));
   };
 
+  // format currency
+  const formatCurrency = new Intl.NumberFormat("en-us", {
+    currency: "PHP",
+    style: "currency",
+  });
+
   return (
     <div className="cart">
       <h1 style={{ padding: "0 10px" }}>Your Cart</h1>
@@ -31,7 +37,7 @@ const CartItem = () => {
                     Size: <span>{item.size}</span>
                   </span>
                   <span className="cart-price">
-                    ₱ {item.price * item.quantity}
+                    {formatCurrency.format(item.price * item.quantity)}
                   </span>
                 </div>
                 <div className="box-quantity">
