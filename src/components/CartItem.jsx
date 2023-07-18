@@ -30,7 +30,9 @@ const CartItem = () => {
                   <span className="cart-size">
                     Size: <span>{item.size}</span>
                   </span>
-                  <span className="cart-price">₱ {item.price}</span>
+                  <span className="cart-price">
+                    ₱ {item.price * item.quantity}
+                  </span>
                 </div>
                 <div className="box-quantity">
                   <AiOutlineMinus

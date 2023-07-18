@@ -4,7 +4,7 @@ export const products = [
     name: "T-shirt Stockholm Autumn Birds Off-White",
     originalPrice: 299,
     price: 199,
-    sizes: ["XL", "L", "M", "S", "XS"],
+    sizes: ["Extra Large", "Large", "Medium", "Small", "Extra Small"],
     info: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
     detail:
       "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.",
@@ -24,7 +24,7 @@ export const products = [
     name: "T-shirt Visby Bike People Off-White",
     originalPrice: 299,
     price: 299,
-    sizes: ["L", "M", "S"],
+    sizes: ["Large", "Medium", "Small"],
     info: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
     detail:
       "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.",
@@ -44,7 +44,7 @@ export const products = [
     name: "T-shirt Vadstena Small Flowers AOP Black",
     originalPrice: 349,
     price: 349,
-    sizes: ["L", "M", "S", "XS"],
+    sizes: ["Large", "Medium", "Small", "Extra Small"],
     info: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
     detail:
       "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.",
@@ -64,7 +64,7 @@ export const products = [
     name: "T-shirt Stockholm Base Navy",
     originalPrice: 279,
     price: 279,
-    sizes: ["XL", "L", "M", "S", "XS"],
+    sizes: ["Extra Large", "Large", "Medium", "Small", "Extra Small"],
     info: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
     detail:
       "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.",
@@ -85,7 +85,7 @@ export const products = [
     name: "T-shirt Stockholm Boiling Coffee White",
     originalPrice: 279,
     price: 279,
-    sizes: ["L", "M", "S"],
+    sizes: ["Large", "Medium", "Small"],
     info: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
     detail:
       "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.",
@@ -105,7 +105,7 @@ export const products = [
     name: "T-shirt Gustavsberg Hemp Sunburn Orange",
     originalPrice: 499,
     price: 499,
-    sizes: ["XL", "L", "M", "S", "XS"],
+    sizes: ["Extra Large", "Large", "Medium", "Small", "Extra Small"],
     info: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
     detail:
       "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.",
@@ -125,7 +125,7 @@ export const products = [
     name: "T-shirt Vadstena Estate Blue/Vanilla White",
     originalPrice: 499,
     price: 399,
-    sizes: ["XL", "L", "M", "S"],
+    sizes: ["Extra Large", "Large", "Medium", "Small"],
     info: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
     detail:
       "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.",
@@ -145,7 +145,7 @@ export const products = [
     name: "T-shirt Visby Anything Charcoal",
     originalPrice: 399,
     price: 399,
-    sizes: ["XL", "L", "M", "S", "XS"],
+    sizes: ["Extra Large", "Large", "Medium", "Small", "Extra Small"],
     info: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
     detail:
       "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.",
@@ -165,7 +165,7 @@ export const products = [
     name: "T-shirt Gustavsberg Stripe Multi Color",
     originalPrice: 499,
     price: 499,
-    sizes: ["XL", "L", "M", "S"],
+    sizes: ["Extra Small", "Large", "Medium", "Small"],
     info: "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
     detail:
       "I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.",
