@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import { AnimatePresence } from "framer-motion";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   const [items, setItems] = useState([]);
@@ -17,6 +19,7 @@ const App = () => {
 
   return (
     <div>
+      <ToastContainer />
       <Header products={products} />
       <ScrollToTop />
       <AnimatePresence mode="wait" initial={false}>

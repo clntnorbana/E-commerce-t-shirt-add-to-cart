@@ -3,10 +3,11 @@ import { BsHandbag } from "react-icons/bs";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/cartSlice";
 import Recommended from "./Recommended";
-import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const ProductViewDetail = ({ product }) => {
-  const navigate = useNavigate();
+  const [image, setImage] = useState(product.subImg[0]);
+  const [size, setSize] = useState("");
 
   const info = [
     "fit",
@@ -17,9 +18,6 @@ const ProductViewDetail = ({ product }) => {
     "delivery information",
     "article number",
   ];
-
-  const [image, setImage] = useState(product.subImg[0]);
-  const [size, setSize] = useState("");
 
   const setMainImage = (index) => {
     setImage(product.subImg[index]);
@@ -37,8 +35,6 @@ const ProductViewDetail = ({ product }) => {
     };
 
     dispatch(addToCart(item));
-
-    navigate("/cart");
   };
 
   return (
